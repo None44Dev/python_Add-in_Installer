@@ -1,0 +1,14 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon>
+        <tabs>
+            <tab id="customTab" label="Надстройка">
+                <group id="customGroup1" label="Функции">
+                    <button id="customButton1" label="Идентификатор" size="normal" onAction="Расставить_Идентификаторы" imageMso="EquationInsertNew" />
+                </group>
+                <group id="customGroup2" label="Справки">
+                    <button id="customButton2" label="Справка" size="large" onAction="Вызов_справки" imageMso="TipWizardHelp" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
